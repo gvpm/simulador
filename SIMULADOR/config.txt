@@ -1,0 +1,16 @@
+//Colocar os nomes logo apos o ":"
+//Colocar aqui nome do arquivo de entrada.
+input:input.txt
+
+//Colocar aqui o escalonador a ser utilizado.
+//Escalonadores Suportados em "sched_type" abaixo.
+//1 = FIFO (First In First Out) Não Preemptivo
+//2 = SJB (Shortest Job First) Não Preemptivo
+sched_type:1
+
+
+//Com "plot = 1" o Programa vai gerar um grafico .pdf e um .ps representando a simulacao.
+//Coloque 1 em plot somente se estiver rodando em Linux com gnuplot instalado.
+plot:1
+
+
